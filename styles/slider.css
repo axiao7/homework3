@@ -1,0 +1,46 @@
+#container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+@media screen and (min-width: 1024px) {
+  #container {
+    height: 41rem;
+  }
+}
+@media screen and (min-width: 414px) and (max-width: 1024px) {
+  #container {
+    height: 13.7rem;
+  }
+}
+@media screen and (min-width: 319px) and (max-width: 376px) {
+  #container {
+    height: 20.5rem;
+  }
+}
+.all-img {
+  position: absolute;
+  left: 0;
+  width: 500%;
+  font-size: 0;
+}
+.slider-img {
+  float: left;
+  width: 20%;
+  border: none;
+}
+@media screen and (min-width: 1024px) {
+  .slider-img {
+    height: 41rem;
+  }
+}
+@media screen and (min-width: 414px) and (max-width: 1024px) {
+  .slider-img {
+    height: 13.7rem;
+  }
+}
+@media screen and (min-width: 319px) and (max-width: 376px) {
+  .slider-img {
+    height: 20.5rem;
+  }
+}
